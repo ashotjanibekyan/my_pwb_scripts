@@ -1,6 +1,6 @@
 import toolforge, re, time
 import pywikibot as pw
-from scripts.userscripts import wikiscripts as ws
+from wikiscripts import wikiscripts as ws
 
 hywiki = pw.Site('hy', 'wikipedia')
 ws_hywiki = ws.Wiki('hy', 'wikipedia')

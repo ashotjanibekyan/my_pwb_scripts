@@ -1,0 +1,1000 @@
+ 1040  2020-08-10 20:03:55 vim pywiki/scripts/userscripts/new_images.py 
+ 1041  2020-08-10 20:08:54 jstart -N new_images python3 $HOME/pywiki/pwb.py $HOME/pywiki/scripts/userscripts/new_images.py
+ 1042  2020-08-10 20:37:24 exit
+ 1043  2020-08-10 22:45:20 vim pywiki/scripts/userscripts/largeImages.py 
+ 1044  2020-08-10 22:45:43 vim pywiki/scripts/userscripts/userpage_cats.py 
+ 1045  2020-08-10 22:57:24 exit
+ 1046  2020-08-11 00:28:56 qstat
+ 1047  2020-08-11 00:29:13 jstop scientific_article
+ 1048  2020-08-11 00:29:24 vim my_scripts/sci_art.py 
+ 1049  2020-08-11 00:29:42 jstart -N scientific_article $HOME/my_venv/bin/python3 $HOME/my_scripts/sci_art.py
+ 1050  2020-08-11 01:02:32 exit
+ 1051  2020-08-11 18:48:59 vim pywiki/scripts/userscripts/old_unsource.py
+ 1052  2020-08-11 18:51:17 export VISUAL=vim; crontab -e
+ 1053  2020-08-16 17:20:36 jstop scientific_article
+ 1054  2020-08-16 17:20:43 vim my_scripts/sci_art.py 
+ 1055  2020-08-16 17:20:58 jstart -N scientific_article $HOME/my_venv/bin/python3 $HOME/my_scripts/sci_art.py
+ 1056  2020-08-18 16:46:26 vim pywiki/scripts/userscripts/vital.py 
+ 1057  2020-08-18 16:47:44 python3 pywiki/pwb.py vital
+ 1058  2020-08-18 16:53:15 vim pywiki/scripts/userscripts/vital.py 
+ 1059  2020-08-19 19:21:15 vim pywiki/scripts/userscripts/vital.py 
+ 1060  2020-08-19 19:21:28 vim pywiki/scripts/userscripts/vital.py 
+ 1061  2020-08-19 19:25:44 python3 pywiki/pwb.py vital
+ 1062  2020-08-19 20:00:07 vim pywiki/scripts/userscripts/vital.py 
+ 1063  2020-08-19 20:00:41 vim pywiki/scripts/userscripts/vital.py 
+ 1064  2020-08-19 20:01:39 vim pywiki/scripts/userscripts/vital.py 
+ 1065  2020-08-19 20:03:28 pythno3
+ 1066  2020-08-19 20:03:32 python3 
+ 1067  2020-08-19 20:04:20 vim pywiki/scripts/userscripts/vital.py 
+ 1068  2020-08-19 20:05:51 python3 pywiki/pwb.py vital
+ 1069  2020-08-19 20:40:41 vim pywiki/scripts/userscripts/wikiscripts.py 
+ 1070  2020-08-19 20:43:00 vim pywiki/scripts/userscripts/vital.py 
+ 1071  2020-08-19 20:43:31 python3 pywiki/pwb.py vital
+ 1072  2020-08-19 20:49:06 vim pywiki/scripts/userscripts/vital.py 
+ 1073  2020-08-19 20:49:34 python3 pywiki/pwb.py vital
+ 1074  2020-08-19 21:10:46 vim pywiki/scripts/userscripts/vital.py 
+ 1075  2020-08-20 18:22:04 vim pywiki/scripts/userscripts/new_images.py 
+ 1076  2020-08-23 07:11:05 vim pywiki/scripts/userscripts/userpage_cats.py 
+ 1077  2020-08-23 07:19:37 python3 pywiki/pwb.py userpage_cats
+ 1078  2020-08-23 07:21:39 vim pywiki/scripts/userscripts/userpage_cats.py 
+ 1079  2020-08-23 07:22:12 python3 pywiki/pwb.py userpage_cats
+ 1080  2020-08-23 07:32:23 vim pywiki/scripts/userscripts/userpage_cats.py 
+ 1081  2020-08-23 07:33:09 python3 pywiki/pwb.py userpage_cats
+ 1082  2020-08-23 09:13:12 python3 pywiki/pwb.py userpage_cats
+ 1083  2020-08-23 09:25:09 vim pywiki/scripts/userscripts/userpage_cats.py 
+ 1084  2020-08-24 09:33:52 exit
+ 1085  2020-08-24 10:04:59 vim userpage_cats.err 
+ 1086  2020-08-24 10:05:17 vim pywiki/scripts/userscripts/userpage_cats.py 
+ 1087  2020-08-24 10:05:34 python3 pywiki/pwb.py userpage_cats
+ 1088  2020-08-24 11:23:15 exit
+ 1089  2020-08-25 03:57:27 jstop scientific_article
+ 1090  2020-08-25 03:57:46 vim my_scripts/sci_art.py 
+ 1091  2020-08-25 03:58:23 jstart -N scientific_article $HOME/my_venv/bin/python3 $HOME/my_scripts/sci_art.py
+ 1092  2020-08-25 03:58:47 exit
+ 1093  2020-08-27 14:38:42 jstop scientific_article
+ 1094  2020-08-27 14:38:46 vim my_scripts/sci_art.py 
+ 1095  2020-08-27 14:39:10 jstart -N scientific_article $HOME/my_venv/bin/python3 $HOME/my_scripts/sci_art.py
+ 1096  2020-08-27 14:39:43 vim scientific_article.err
+ 1097  2020-08-27 14:41:57 jstop scientific_article
+ 1098  2020-08-27 14:42:00 vim scientific_article.err
+ 1099  2020-08-27 14:42:04 vim scientific_article.err
+ 1100  2020-08-27 14:42:15 vim my_scripts/sci_art.py 
+ 1101  2020-08-27 14:42:43 jstart -N scientific_article $HOME/my_venv/bin/python3 $HOME/my_scripts/sci_art.py
+ 1102  2020-08-28 19:18:49 vim pywiki/scripts/userscripts/vital.py 
+ 1103  2020-08-28 19:20:32 vim pywiki/scripts/archivebot.py 
+ 1104  2020-08-28 19:20:43 vim pywiki/scripts/userscripts/vital.py 
+ 1105  2020-08-28 19:20:55 vim pywiki/scripts/userscripts/vital.py 
+ 1106  2020-08-28 19:21:51 python3 pywiki/pwb.py vital
+ 1107  2020-08-28 19:24:28 vim pywiki/scripts/userscripts/vital.py 
+ 1108  2020-08-28 19:26:05 python3 pywiki/pwb.py vital
+ 1109  2020-08-28 19:31:58 vim pywiki/scripts/userscripts/vital.py 
+ 1110  2020-08-28 19:37:28 python3 pywiki/pwb.py vital
+ 1111  2020-08-28 19:53:57 vim pywiki/scripts/userscripts/vital.py 
+ 1112  2020-08-28 19:55:08 vim pywiki/scripts/userscripts/wikiscripts.py 
+ 1113  2020-08-28 19:56:58 vim pywiki/scripts/userscripts/wikiscripts.py 
+ 1114  2020-08-28 19:59:59 vim pywiki/scripts/userscripts/vital.py 
+ 1115  2020-08-28 20:00:43 python3 pywiki/pwb.py vital
+ 1116  2020-08-28 21:01:40 vim pywiki/scripts/userscripts/vital.py 
+ 1117  2020-08-28 21:05:22 python3 pywiki/pwb.py vital
+ 1118  2020-08-28 21:22:24 vim pywiki/scripts/userscripts/vital.py 
+ 1119  2020-08-28 21:22:55 python3 pywiki/pwb.py vital
+ 1120  2020-08-28 21:34:10 vim pywiki/scripts/userscripts/vital.py 
+ 1121  2020-08-28 21:44:13 python3 pywiki/pwb.py vital
+ 1122  2020-08-28 21:45:29 vim pywiki/scripts/userscripts/vital.py 
+ 1123  2020-08-28 21:46:34 python3 pywiki/pwb.py vital
+ 1124  2020-08-28 21:47:45 vim pywiki/scripts/userscripts/vital.py 
+ 1125  2020-08-28 21:49:01 python3 pywiki/pwb.py vital
+ 1126  2020-08-28 21:49:10 vim pywiki/scripts/userscripts/vital.py 
+ 1127  2020-08-28 21:51:01 python3 pywiki/pwb.py vital
+ 1128  2020-08-28 21:51:12 vim pywiki/scripts/userscripts/vital.py 
+ 1129  2020-08-28 21:51:45 python3 pywiki/pwb.py vital
+ 1130  2020-08-28 21:52:00 vim pywiki/scripts/userscripts/vital.py 
+ 1131  2020-08-28 21:53:38 vim pywiki/scripts/userscripts/vital.py 
+ 1132  2020-08-28 21:54:54 python3 pywiki/pwb.py vital
+ 1133  2020-08-28 21:55:08 vim pywiki/scripts/userscripts/vital.py 
+ 1134  2020-08-28 21:55:36 python3 pywiki/pwb.py vital
+ 1135  2020-08-28 22:04:39 vim pywiki/scripts/userscripts/vital.py 
+ 1136  2020-08-28 22:10:29 python3 pywiki/pwb.py vital
+ 1137  2020-08-28 22:12:02 vim pywiki/scripts/userscripts/vital.py 
+ 1138  2020-08-28 22:13:12 python3 pywiki/pwb.py vital
+ 1139  2020-08-28 22:14:34 vim pywiki/scripts/userscripts/vital.py 
+ 1140  2020-08-28 22:16:00 python3 pywiki/pwb.py vital
+ 1141  2020-08-28 22:17:19 vim pywiki/scripts/userscripts/vital.py 
+ 1142  2020-08-28 22:17:47 python3 pywiki/pwb.py vital
+ 1143  2020-08-28 22:19:33 vim pywiki/scripts/userscripts/vital.py 
+ 1144  2020-08-28 22:20:28 python3 pywiki/pwb.py vital
+ 1145  2020-08-29 13:00:21 jstop scientific_article
+ 1146  2020-08-29 13:00:37 vim my_scripts/sci_art.py 
+ 1147  2020-08-29 13:01:15 jstart -N scientific_article $HOME/my_venv/bin/python3 $HOME/my_scripts/sci_art.py
+ 1148  2020-08-29 20:08:00 jstop scientific_article
+ 1149  2020-08-29 20:08:03 jstart -N scientific_article $HOME/my_venv/bin/python3 $HOME/my_scripts/sci_art.py
+ 1150  2020-08-29 20:10:41 jstat
+ 1151  2020-08-29 20:10:49 jstats
+ 1152  2020-08-29 20:10:53 qstat
+ 1153  2020-08-29 20:14:22 python3
+ 1154  2020-08-29 20:15:05 jstop scientific_article
+ 1155  2020-08-29 20:15:09 jstop scientific_article
+ 1156  2020-08-29 20:15:15 vim my_scripts/sci_art.py 
+ 1157  2020-08-29 20:15:38 qstat
+ 1158  2020-08-29 20:15:49 qstat
+ 1159  2020-08-29 20:16:07 jstop scientific_article
+ 1160  2020-08-29 20:16:10 qstat
+ 1161  2020-08-29 20:16:42 qstat
+ 1162  2020-08-29 20:17:00 jstop 1558221
+ 1163  2020-08-29 20:17:11 jstats 1558221
+ 1164  2020-08-29 20:17:47 kill 1558221
+ 1165  2020-08-29 20:17:57 jstats 1558
+ 1166  2020-08-29 20:18:08 jstart -N scientific_article $HOME/my_venv/bin/python3 $HOME/my_scripts/sci_art.py
+ 1167  2020-08-29 20:19:55 qstat
+ 1168  2020-08-29 20:20:07 $HOME/my_venv/bin/python3 $HOME/my_scripts/sci_art.py
+ 1169  2020-08-29 20:20:58 jstart -N s_article $HOME/my_venv/bin/python3 $HOME/my_scripts/sci_art.py
+ 1170  2020-08-29 22:32:44 cd ./pywiki/
+ 1171  2020-08-29 22:32:51 python3 pwb.py touch
+ 1172  2020-08-29 22:33:01 python3 pwb.py touch --help
+ 1173  2020-08-29 22:33:09 python3 pwb.py touch -help
+ 1174  2020-08-29 22:33:52 python3 pwb.py touch -cat:"Pages with script errors"
+ 1175  2020-08-29 23:09:26 python3 pwb.py touch -cat:"Pages with script errors"
+ 1176  2020-08-30 02:37:36 python3 pywiki/pwb.py vital
+ 1177  2020-08-30 11:21:23 vim vital.err 
+ 1178  2020-08-30 11:23:07 vim pywiki/scripts/userscripts/vital.py 
+ 1179  2020-08-30 11:24:13 python3 pywiki/pwb.py vital
+ 1180  2020-09-01 06:32:02 qstat
+ 1181  2020-09-01 06:32:15 vim new_images.err 
+ 1182  2020-09-01 06:32:44 vim new_images.out 
+ 1183  2020-09-01 06:33:28 qstat
+ 1184  2020-09-01 06:33:46 jstart -N s_article $HOME/my_venv/bin/python3 $HOME/my_scripts/sci_art.py
+ 1185  2020-09-01 06:34:35 qstat
+ 1186  2020-09-01 06:34:50 jstart -N new_images python3 $HOME/pywiki/pwb.py $HOME/pywiki/scripts/userscripts/new_images.py
+ 1187  2020-09-01 06:35:04 exit
+ 1188  2020-09-01 06:39:00 vim pywiki/scripts/userscripts/new_images.py 
+ 1189  2020-09-01 06:40:45 vim pywiki/scripts/userscripts/nonFreeImages.py 
+ 1190  2020-09-01 06:51:46 vim pywiki/scripts/userscripts/new_images.py 
+ 1191  2020-09-01 06:52:23 python3 pywiki/pwb.py shell
+ 1192  2020-09-01 06:54:12 vim pywiki/scripts/userscripts/new_images.py 
+ 1193  2020-09-01 06:57:06 jstop new_images
+ 1194  2020-09-01 06:57:27 python3 $HOME/pywiki/pwb.py $HOME/pywiki/scripts/userscripts/new_images.py
+ 1195  2020-09-01 07:00:06 jstart -N new_images python3 $HOME/pywiki/pwb.py $HOME/pywiki/scripts/userscripts/new_images.py
+ 1196  2020-09-01 07:08:54 python3
+ 1197  2020-09-08 13:07:35 vim ./pywiki/scripts/userscripts/shortArticles.py 
+ 1198  2020-09-08 13:08:38 vim ./pywiki/scripts/userscripts/math_project.py
+ 1199  2020-09-08 13:09:00 vim ./pywiki/scripts/userscripts/math_project.py
+ 1200  2020-09-08 13:11:24 python3 pywiki/pwb.py math_project
+ 1201  2020-09-08 13:22:07 vim ./pywiki/scripts/userscripts/math_project.py
+ 1202  2020-09-08 13:22:43 python3 pywiki/pwb.py math_project
+ 1203  2020-09-08 13:22:57 vim ./pywiki/scripts/userscripts/math_project.py
+ 1204  2020-09-08 13:23:17 python3 pywiki/pwb.py math_project
+ 1205  2020-09-08 13:27:51 export VISUAL=vim; crontab -e
+ 1206  2020-09-08 13:28:40 export VISUAL=vim; crontab -e
+ 1207  2020-09-10 00:24:49 ls
+ 1208  2020-09-10 00:25:01 vim ./pywiki/scripts/userscripts/almostUncatAtricles.py 
+ 1209  2020-09-10 00:27:05 python3 ./pywiki/pwb.py almostUncatAtricles
+ 1210  2020-09-10 06:43:26 vim ./pywiki/scripts/userscripts/almostUncatAtricles.py 
+ 1211  2020-09-14 17:11:04 vim pywiki/scripts/userscripts/almostUncatAtricles.py 
+ 1212  2020-09-14 17:12:04 python3 pywiki/pwb.py almostUncatAtricles
+ 1213  2020-09-14 17:23:45 python3 pywiki/pwb.py almostUncatAtricles
+ 1214  2020-09-14 17:23:50 vim pywiki/scripts/userscripts/almostUncatAtricles.py 
+ 1215  2020-09-14 17:26:06 python3 pywiki/pwb.py almostUncatAtricles
+ 1216  2020-09-14 17:31:16 exit
+ 1217  2020-09-22 12:08:21 jstop scientific_article
+ 1218  2020-09-22 12:08:27 qstat
+ 1219  2020-09-22 12:08:41 jstop s-article
+ 1220  2020-09-22 12:08:45 jstop s_article
+ 1221  2020-09-22 12:09:05 qstat
+ 1222  2020-09-22 12:09:25 jstart -N s_article $HOME/my_venv/bin/python3 $HOME/my_scripts/sci_art.py
+ 1223  2020-10-01 22:32:38 exit
+ 1224  2020-11-02 12:35:31 qstat
+ 1225  2020-11-02 12:35:42 jstart -N s_article $HOME/my_venv/bin/python3 $HOME/my_scripts/sci_art.py
+ 1226  2020-11-04 06:21:53 qstat
+ 1227  2020-11-04 06:21:57 jstart -N s_article $HOME/my_venv/bin/python3 $HOME/my_scripts/sci_art.py
+ 1228  2020-11-11 09:22:36 ls
+ 1229  2020-11-11 09:23:47 exit
+ 1230  2020-11-14 19:03:48 qstat
+ 1231  2020-11-14 19:03:53 jstart -N s_article $HOME/my_venv/bin/python3 $HOME/my_scripts/sci_art.py
+ 1232  2020-11-17 01:05:25 qstat
+ 1233  2020-11-17 01:05:31 jstart -N s_article $HOME/my_venv/bin/python3 $HOME/my_scripts/sci_art.py
+ 1234  2020-11-21 05:10:09 qstat
+ 1235  2020-11-21 05:10:38 vim scientific_article.err 
+ 1236  2020-11-21 05:11:24 vim ./my_scripts/sci_art.py 
+ 1237  2020-11-21 05:12:57 $HOME/my_venv/bin/python3 $HOME/my_scripts/sci_art.py
+ 1238  2020-11-21 05:13:38 vim ./my_scripts/sci_art.py 
+ 1239  2020-11-21 05:14:27 qstat
+ 1240  2020-11-21 05:15:05 qdel 2823252
+ 1241  2020-11-21 05:15:34 qstat
+ 1242  2020-11-21 05:15:39 vim ./my_scripts/sci_art.py 
+ 1243  2020-11-21 05:41:17 qstat
+ 1244  2020-11-21 05:41:36 vim ./my_scripts/typo_sc.py
+ 1245  2020-11-21 05:43:10 $HOME/my_venv/bin/python3 /data/project/ashbot/my_scripts/typo_sc.py 
+ 1246  2020-11-21 05:43:31 vim ./my_scripts/sci_art.py 
+ 1247  2020-11-21 05:43:53 ls ./my_scripts/
+ 1248  2020-11-21 05:44:08 vim ./my_scripts/nonFreeImages.py 
+ 1249  2020-11-21 05:44:43 $HOME/my_venv/bin/python3 pwb.py /data/project/ashbot/my_scripts/typo_sc.py 
+ 1250  2020-11-21 05:44:51 cd ./my_scripts
+ 1251  2020-11-21 05:45:04 python pwb.py type.sc
+ 1252  2020-11-21 05:45:07 cd ..
+ 1253  2020-11-21 05:45:11 mv 
+ 1254  2020-11-21 05:45:16 mv --help
+ 1255  2020-11-21 05:45:30 ls
+ 1256  2020-11-21 05:46:02 cd ./pywiki/scripts/
+ 1257  2020-11-21 05:46:04 ls
+ 1258  2020-11-21 05:46:11 cd ..
+ 1259  2020-11-21 05:46:18 cd ./scripts/userscripts/
+ 1260  2020-11-21 05:46:19 ls
+ 1261  2020-11-21 05:46:22 cd ..
+ 1262  2020-11-21 05:46:24 cd ..
+ 1263  2020-11-21 05:46:26 cd ..
+ 1264  2020-11-21 05:46:46 mv ./my_scripts/typo_sc.py ./pywiki/scripts/userscripts/type_sc.py
+ 1265  2020-11-21 05:46:54 cd ./pywiki/
+ 1266  2020-11-21 05:47:07 python pwb.py type_sc.py
+ 1267  2020-11-21 05:47:40 python3 pwb.py type_sc.py
+ 1268  2020-11-21 05:50:05 jstart -N s_article python3 pwb.py type_sc.py
+ 1269  2020-11-21 05:51:01 qstat
+ 1270  2020-11-21 05:51:39 qstat
+ 1271  2020-11-21 05:52:50 qstat
+ 1272  2020-11-21 05:53:20 qkill 2824510
+ 1273  2020-11-21 05:53:37 qdel 2824510
+ 1274  2020-11-21 05:56:08 cd ..
+ 1275  2020-11-21 05:56:14 export VISUAL=vim; crontab -e
+ 1276  2020-11-21 05:56:49 jstart -N s_article python3 $HOME/pywiki/pwb.py $HOME/pywiki/scripts/userscripts/type_sc.py
+ 1277  2020-11-27 09:39:08 ls
+ 1278  2020-11-27 09:39:12 qstat
+ 1279  2020-11-27 09:39:18 jstart -N s_article python3 $HOME/pywiki/pwb.py $HOME/pywiki/scripts/userscripts/type_sc.py
+ 1280  2020-12-02 20:53:01 jstart -N s_article python3 $HOME/pywiki/pwb.py $HOME/pywiki/scripts/userscripts/type_sc.py
+ 1281  2020-12-05 18:58:14 jstart -N s_article python3 $HOME/pywiki/pwb.py $HOME/pywiki/scripts/userscripts/type_sc.py
+ 1282  2020-12-08 00:10:30 jstart -N s_article python3 $HOME/pywiki/pwb.py $HOME/pywiki/scripts/userscripts/type_sc.py
+ 1283  2020-12-08 00:11:01 qstat
+ 1284  2020-12-11 13:23:08 ls
+ 1285  2020-12-11 13:23:16 cd ./pywiki/
+ 1286  2020-12-11 13:23:23 python3 pwb.py shell
+ 1287  2020-12-13 03:14:17 jstart -N s_article python3 $HOME/pywiki/pwb.py $HOME/pywiki/scripts/userscripts/type_sc.py
+ 1288  2020-12-20 12:22:36 jstart -N s_article python3 $HOME/pywiki/pwb.py $HOME/pywiki/scripts/userscripts/type_sc.py
+ 1289  2021-01-07 16:28:08 jstart -N s_article python3 $HOME/pywiki/pwb.py $HOME/pywiki/scripts/userscripts/type_sc.py
+ 1290  2021-01-26 11:47:14 jstart -N s_article python3 $HOME/pywiki/pwb.py $HOME/pywiki/scripts/userscripts/type_sc.py
+ 1291  2021-01-30 13:17:07 export VISUAL=vim; crontab -e
+ 1292  2021-01-30 13:17:42 vim $HOME/pywiki/scripts/userscripts/vital
+ 1293  2021-01-30 13:17:59 vim ./pywiki/scripts/userscripts/vital.py 
+ 1294  2021-01-30 13:28:06 vim ./pywiki/scripts/userscripts/wikiscripts.py 
+ 1295  2021-01-30 13:40:40 vim ./pywiki/scripts/userscripts/vital.py 
+ 1296  2021-02-03 18:57:14 jstart -N s_article python3 $HOME/pywiki/pwb.py $HOME/pywiki/scripts/userscripts/type_sc.py
+ 1297  2021-02-04 14:47:35 jstart -N s_article python3 $HOME/pywiki/pwb.py $HOME/pywiki/scripts/userscripts/type_sc.py
+ 1298  2021-02-13 22:04:57 jstart -N s_article python3 $HOME/pywiki/pwb.py $HOME/pywiki/scripts/userscripts/type_sc.py
+ 1299  2021-02-13 22:13:48 export VISUAL=vim; crontab -e
+ 1300  2021-02-13 22:14:16 export VISUAL=vim; crontab -e
+ 1301  2021-02-13 22:14:56 vim ./pywiki/scripts/userscripts/missingLabels.py 
+ 1302  2021-02-13 23:01:44 vim ./pywiki/scripts/userscripts/missingLabels.py 
+ 1303  2021-02-13 23:35:17 vim ./pywiki/scripts/userscripts/missingLabels.py 
+ 1304  2021-02-13 23:36:42 export VISUAL=vim; crontab -e
+ 1305  2021-02-13 23:37:02 python3 $HOME/pywiki/pwb.py $HOME/pywiki/scripts/userscripts/missingLabels
+ 1306  2021-02-13 23:37:44 jstart -N temp python3 $HOME/pywiki/pwb.py $HOME/pywiki/scripts/userscripts/missingLabels
+ 1307  2021-02-13 23:38:31 vim ./pywiki/scripts/userscripts/missingLabels.py 
+ 1308  2021-02-14 13:04:48  python3 $HOME/pywiki/pwb.py /data/project/ashbot/pywiki/scripts/userscripts/almostUncatAtricles.py 
+ 1309  2021-02-14 20:34:51 vim $HOME/pywiki/scripts/userscripts/type_sc.py
+ 1310  2021-02-14 20:35:17 vim $HOME/pywiki/scripts/userscripts/type_sc.py
+ 1311  2021-02-14 20:36:58 jstart -N s_article python3 $HOME/pywiki/pwb.py $HOME/pywiki/scripts/userscripts/type_sc.py
+ 1312  2021-02-14 23:22:03 jstart -N s_article python3 $HOME/pywiki/pwb.py $HOME/pywiki/scripts/userscripts/type_sc.py
+ 1313  2021-02-14 23:51:50 vim ./pywiki/scripts/userscripts/d.py 
+ 1314  2021-02-14 23:52:37 vim ./pywiki/scripts/userscripts/t.py 
+ 1315  2021-02-14 23:53:32 vim ./pywiki/scripts/userscripts/qsources.py 
+ 1316  2021-02-14 23:54:32 vim vim ./my_scripts/sci_art.py 
+ 1317  2021-02-14 23:54:54 cd ./my_scripts/
+ 1318  2021-02-14 23:54:55 ls
+ 1319  2021-02-15 00:01:09 cd ..
+ 1320  2021-02-15 05:56:55 jstart -N s_article $HOME/my_venv/bin/python3 $HOME/my_scripts/sci_art.py
+ 1321  2021-02-15 05:59:36 vim ./my_scripts/sci_art.py 
+ 1322  2021-02-15 06:00:15 qstat
+ 1323  2021-02-15 06:00:24 jstop 2827400
+ 1324  2021-02-15 06:00:37 jstop s_article
+ 1325  2021-02-15 06:00:48 qstat
+ 1326  2021-02-15 06:00:53 jstart -N s_article $HOME/my_venv/bin/python3 $HOME/my_scripts/sci_art.py
+ 1327  2021-02-18 02:53:52 jstop s_article
+ 1328  2021-02-18 02:54:36 vim /my_scripts/sci_art.py
+ 1329  2021-02-18 02:54:47 vim ./my_scripts/sci_art.py
+ 1330  2021-02-18 02:56:32 jstart -N s_article $HOME/my_venv/bin/python3 $HOME/my_scripts/sci_art.py
+ 1331  2021-02-18 03:03:00 jstop s_article
+ 1332  2021-02-18 03:03:04 vim ./my_scripts/sci_art.py
+ 1333  2021-02-18 03:03:24 jstop s_article
+ 1334  2021-02-18 03:39:00 ls
+ 1335  2021-02-18 03:39:21 vim s_article.err 
+ 1336  2021-02-18 03:39:50 vim s_article.out 
+ 1337  2021-02-18 03:51:13 vim ./my_scripts/sci_art.py
+ 1338  2021-02-18 04:23:04 vim ./my_scripts/vital.py 
+ 1339  2021-02-18 04:23:15 vim ./pywiki/scripts/userscripts/vital.py 
+ 1340  2021-02-18 04:25:33 cd ./pywiki/
+ 1341  2021-02-18 04:25:39 python3 pwb.py vital
+ 1342  2021-02-18 04:36:30 vim ./scripts/userscripts/vital.py 
+ 1343  2021-02-19 03:01:03 jstop s_article
+ 1344  2021-02-19 03:01:10 jstart -N s_article $HOME/my_venv/bin/python3 $HOME/my_scripts/sci_art.py
+ 1345  2021-02-22 08:18:42 export VISUAL=vim; crontab -e
+ 1346  2021-02-26 07:47:49 jstop s_article
+ 1347  2021-02-26 07:48:01 vim ./my_scripts/sci_art.py
+ 1348  2021-02-26 07:48:28 jstart -N s_article $HOME/my_venv/bin/python3 $HOME/my_scripts/sci_art.py
+ 1349  2021-02-26 08:39:57 export VISUAL=vim; crontab -e
+ 1350  2021-02-26 08:40:43 vim $HOME/pywiki/scripts/userscripts/almostUncatAtricles
+ 1351  2021-02-26 08:40:59 vim ./pywiki/scripts/userscripts/almostUncatAtricles.py 
+ 1352  2021-02-26 08:44:14 cd ./pywiki
+ 1353  2021-02-26 08:44:22 python3 pwb.py shell 
+ 1354  2021-02-26 08:47:28 vim ./scripts/userscripts/del_draft.py
+ 1355  2021-02-26 08:47:55 python3 pwb.py del_draft
+ 1356  2021-02-26 08:48:39 vim ./scripts/userscripts/del_draft.py
+ 1357  2021-02-26 08:49:22 python3 pwb.py del_draft
+ 1358  2021-02-26 08:49:36 vim ./scripts/userscripts/del_draft.py
+ 1359  2021-02-26 08:49:50 python3 pwb.py del_draft
+ 1360  2021-02-26 08:50:05 vim ./scripts/userscripts/del_draft.py
+ 1361  2021-02-26 08:50:21 python3 pwb.py del_draft
+ 1362  2021-02-26 08:50:29 vim ./scripts/userscripts/del_draft.py
+ 1363  2021-02-26 08:50:40 python3 pwb.py del_draft
+ 1364  2021-02-26 08:52:22 vim ./scripts/userscripts/del_draft.py
+ 1365  2021-02-26 08:53:18 vim ./scripts/userscripts/del_draft.py
+ 1366  2021-02-26 08:56:50 python3 pwb.py del_draft
+ 1367  2021-02-26 09:05:58 export VISUAL=vim; crontab -e
+ 1368  2021-02-26 09:06:55 export VISUAL=vim; crontab -e
+ 1369  2021-02-26 21:21:57 vim ./pywiki/scripts/userscripts/new_images.py 
+ 1370  2021-02-26 21:23:41 jstat
+ 1371  2021-02-26 21:23:44 qstat
+ 1372  2021-02-26 21:23:51 jstop new_images
+ 1373  2021-02-26 21:23:54 qstat
+ 1374  2021-02-26 21:23:56 jstop new_images
+ 1375  2021-02-26 21:23:58 qstat
+ 1376  2021-02-26 21:24:02 qstat
+ 1377  2021-02-26 21:24:22 qstat
+ 1378  2021-02-26 21:25:14 qstat
+ 1379  2021-02-26 21:26:45 qstat
+ 1380  2021-02-26 21:26:52 jstop new_images
+ 1381  2021-02-26 21:28:58 qstat
+ 1382  2021-02-26 21:29:16 qdel 1700213
+ 1383  2021-02-26 21:29:40 qdel 1700213 -f
+ 1384  2021-02-26 21:30:57 qstat
+ 1385  2021-02-26 21:32:09 jstart -N new_images python3 $HOME/pywiki/pwb.py $HOME/pywiki/scripts/userscripts/new_images.py
+ 1386  2021-02-26 21:32:13 qstat
+ 1387  2021-02-26 21:32:16 qstat
+ 1388  2021-02-26 21:32:37 jstop -f new_images
+ 1389  2021-02-26 21:32:48 qdel -f new_images
+ 1390  2021-02-26 21:34:22 jstart -N images_cleanup python3 $HOME/pywiki/pwb.py $HOME/pywiki/scripts/userscripts/new_images.py
+ 1391  2021-02-26 21:37:31 cd ./pywiki/
+ 1392  2021-02-26 21:37:41 python3 pwb.py new_images
+ 1393  2021-02-26 23:33:37 qstat
+ 1394  2021-02-26 23:34:19 vim ./pywiki/scripts/userscripts/new_images.py 
+ 1395  2021-02-26 23:38:12 python3 pwb.py new_images
+ 1396  2021-02-26 23:38:16 cd ./pywiki/
+ 1397  2021-02-26 23:38:19 python3 pwb.py new_images
+ 1398  2021-02-27 12:17:29 cd ./pywiki/
+ 1399  2021-02-27 12:17:53 python3 pwb.py ./scripts/userscripts/largeImages.py 
+ 1400  2021-02-27 12:18:15 vim ./scripts/userscripts/largeImages.py 
+ 1401  2021-02-27 12:19:30 python3 pwb.py ./scripts/userscripts/largeImages.py 
+ 1402  2021-02-27 12:20:20 vim ./scripts/userscripts/largeImages.py 
+ 1403  2021-02-27 21:10:47 qstat
+ 1404  2021-02-27 21:11:34 ls
+ 1405  2021-02-27 21:16:58 cd ./my_scripts/
+ 1406  2021-02-27 21:17:12 ls
+ 1407  2021-02-27 21:17:48 cd ..
+ 1408  2021-02-27 21:18:00 source my_venv/
+ 1409  2021-02-27 21:18:04 source my_venv/bin/activate
+ 1410  2021-02-27 21:18:13 python ./my_scripts/galaxy.py 
+ 1411  2021-02-27 21:18:49 vim ./my_scripts/galaxy.py 
+ 1412  2021-02-27 21:20:00 python ./my_scripts/galaxy.py "human settlement in India" en "բնակավայր Հնդկաստանում" hy"
+ 1413  2021-02-27 21:20:11 python ./my_scripts/galaxy.py "human settlement in India" en "բնակավայր Հնդկաստանում" hy
+ 1414  2021-02-27 21:40:29 deactivate
+ 1415  2021-02-27 21:40:41 cd ./pywiki/
+ 1416  2021-02-27 21:41:05 vim ./scripts/userscripts/descriptioner.py
+ 1417  2021-02-27 21:44:04 python3 pwb.py descriptioner
+ 1418  2021-02-27 21:44:15 vim ./scripts/userscripts/descriptioner.py
+ 1419  2021-02-27 21:44:24 python3 pwb.py descriptioner
+ 1420  2021-02-27 21:44:39 python3 pwb.py descriptioner en 'dewd dwe' hy 'dwew iwoejfoiwejfiowejfoiwe'
+ 1421  2021-02-27 21:44:50 vim ./scripts/userscripts/descriptioner.py
+ 1422  2021-02-27 21:46:11 python3 pwb.py descriptioner en 'human settlement in Germany' hy 'բնակավայր Գերմանիայում'
+ 1423  2021-02-27 21:46:36 vim ./scripts/userscripts/descriptioner.py
+ 1424  2021-02-27 21:47:24 python3 pwb.py descriptioner en 'human settlement in Germany' hy 'բնակավայր Գերմանիայում'
+ 1425  2021-02-27 21:47:34 vim ./scripts/userscripts/descriptioner.py
+ 1426  2021-02-27 21:48:10 vim ./scripts/userscripts/descriptioner.py
+ 1427  2021-02-27 21:48:40 python3 pwb.py descriptioner en 'human settlement in Germany' hy 'բնակավայր Գերմանիայում'
+ 1428  2021-02-27 21:48:58 vim ./scripts/userscripts/descriptioner.py
+ 1429  2021-02-27 21:52:38 python3
+ 1430  2021-02-27 21:53:27 vim ./scripts/userscripts/descriptioner.py
+ 1431  2021-02-27 21:53:57 python3 pwb.py descriptioner en 'human settlement in Germany' hy 'բնակավայր Գերմանիայում'
+ 1432  2021-02-27 21:54:08 vim ./scripts/userscripts/descriptioner.py
+ 1433  2021-02-27 21:55:08 python3 pwb.py descriptioner en 'human settlement in Germany' hy 'բնակավայր Գերմանիայում'
+ 1434  2021-02-27 21:56:05 cd ..
+ 1435  2021-02-27 21:57:13 jstart -N descriptioner python3 $HOME/pywiki/pwb.py $HOME/pywiki/scripts/userscripts/descriptioner.py en 'human settlement in Germany' hy 'բնակավայր Գերմանիայում'
+ 1436  2021-02-27 21:58:16 qstat
+ 1437  2021-02-27 21:58:19 ls
+ 1438  2021-02-27 21:58:27 vim descriptioner.err 
+ 1439  2021-02-27 21:59:17 python3 $HOME/pywiki/pwb.py $HOME/pywiki/scripts/userscripts/descriptioner.py en 'human settlement in Germany' hy 'բնակավայր Գերմանիայում'
+ 1440  2021-02-27 22:00:36 vim ./pywiki/scripts/userscripts/descriptioner.py 
+ 1441  2021-02-27 22:01:13 jstart -N descriptioner python3 $HOME/pywiki/pwb.py $HOME/pywiki/scripts/userscripts/descriptioner.py en 'human settlement in Germany' hy 'բնակավայր Գերմանիայում'
+ 1442  2021-02-27 22:01:17 qstat
+ 1443  2021-02-27 22:01:25 vim descriptioner.err 
+ 1444  2021-02-27 22:01:30 vim descriptioner.out 
+ 1445  2021-02-27 22:02:58 vim ./pywiki/scripts/userscripts/descriptioner.py 
+ 1446  2021-02-27 22:03:22 jstart -N descriptioner python3 $HOME/pywiki/pwb.py $HOME/pywiki/scripts/userscripts/descriptioner.py en 'human settlement in Germany' hy 'dew'
+ 1447  2021-02-27 22:03:32 vim descriptioner.out 
+ 1448  2021-02-27 22:03:38 vim descriptioner.err 
+ 1449  2021-02-27 22:03:47 qstat
+ 1450  2021-02-27 22:03:50 vim descriptioner.err 
+ 1451  2021-02-27 22:03:59 vim descriptioner.out 
+ 1452  2021-02-27 22:04:29 vim ./pywiki/scripts/userscripts/descriptioner.py 
+ 1453  2021-02-27 22:06:30 vim ./pywiki/scripts/userscripts/descriptioner.py 
+ 1454  2021-02-27 22:06:59 jstart -N descriptioner python3 $HOME/pywiki/pwb.py $HOME/pywiki/scripts/userscripts/descriptioner.py en 'human settlement in Germany' hy 'dew'
+ 1455  2021-02-27 22:07:19 qstat
+ 1456  2021-02-27 22:07:39 qstop descriptio
+ 1457  2021-02-27 22:07:45 jstop descriptio
+ 1458  2021-02-27 22:07:54 jstop descriptioner
+ 1459  2021-02-27 22:08:53 vim ./pywiki/scripts/userscripts/descriptioner.py 
+ 1460  2021-02-27 22:09:57 jstart -N descriptioner python3 $HOME/pywiki/pwb.py $HOME/pywiki/scripts/userscripts/descriptioner.py
+ 1461  2021-02-27 22:10:23 qstat
+ 1462  2021-02-27 22:10:26 qstat
+ 1463  2021-02-27 22:10:35 qstat
+ 1464  2021-02-27 22:11:58 qstat
+ 1465  2021-02-27 22:14:02 qstat
+ 1466  2021-02-27 22:14:13 vim descriptioner.err 
+ 1467  2021-02-27 22:14:54 jstop descriptioner
+ 1468  2021-02-27 22:15:01 vim ./pywiki/scripts/userscripts/descriptioner.py 
+ 1469  2021-02-27 22:15:20 qstat
+ 1470  2021-02-27 22:15:32 jstart -N descriptioner python3 $HOME/pywiki/pwb.py $HOME/pywiki/scripts/userscripts/descriptioner.py
+ 1471  2021-02-27 23:10:37 vim ./pywiki/scripts/userscripts/descriptioner.py 
+ 1472  2021-02-27 23:14:25 jstop descriptioner
+ 1473  2021-02-27 23:14:41 jstart -N descriptioner python3 $HOME/pywiki/pwb.py $HOME/pywiki/scripts/userscripts/descriptioner.py sciart
+ 1474  2021-02-28 00:31:02 vim ./pywiki/scripts/userscripts/descriptioner.py 
+ 1475  2021-02-28 01:02:05 vim ./pywiki/scripts/userscripts/descriptioner.py 
+ 1476  2021-02-28 01:04:06 jstart -N descriptioner python3 $HOME/pywiki/pwb.py $HOME/pywiki/scripts/userscripts/descriptioner.py
+ 1477  2021-02-28 01:04:20 vim ./descriptioner.py
+ 1478  2021-02-28 01:04:25 vim ./descriptioner.err 
+ 1479  2021-02-28 01:04:51 jstop descriptioner
+ 1480  2021-02-28 01:04:56 qstat
+ 1481  2021-02-28 01:05:03 qstat
+ 1482  2021-02-28 01:05:08 jstart -N descriptioner python3 $HOME/pywiki/pwb.py $HOME/pywiki/scripts/userscripts/descriptioner.py
+ 1483  2021-02-28 01:06:53 vim ./pywiki/scripts/userscripts/descriptioner.py 
+ 1484  2021-02-28 01:07:11 jstop descriptioner
+ 1485  2021-02-28 01:07:14 jstart -N descriptioner python3 $HOME/pywiki/pwb.py $HOME/pywiki/scripts/userscripts/descriptioner.py
+ 1486  2021-02-28 01:07:17 jstart -N descriptioner python3 $HOME/pywiki/pwb.py $HOME/pywiki/scripts/userscripts/descriptioner.py
+ 1487  2021-02-28 01:07:19 jstart -N descriptioner python3 $HOME/pywiki/pwb.py $HOME/pywiki/scripts/userscripts/descriptioner.py
+ 1488  2021-02-28 01:07:23 jstart -N descriptioner python3 $HOME/pywiki/pwb.py $HOME/pywiki/scripts/userscripts/descriptioner.py
+ 1489  2021-02-28 01:07:27 qstat
+ 1490  2021-02-28 01:07:30 qstat
+ 1491  2021-02-28 01:07:32 qstat
+ 1492  2021-02-28 01:07:48 jstart -N descriptioner python3 $HOME/pywiki/pwb.py $HOME/pywiki/scripts/userscripts/descriptioner.py
+ 1493  2021-02-28 20:57:01 qstat
+ 1494  2021-02-28 20:58:10 vim ./descriptioner.err 
+ 1495  2021-02-28 20:58:31 vim ./descriptioner.out 
+ 1496  2021-02-28 21:01:05 vim ./pywiki/scripts/userscripts/descriptioner.py 
+ 1497  2021-02-28 21:01:43 jstop descriptioner
+ 1498  2021-02-28 21:02:52 vim ./pywiki/scripts/userscripts/descriptioner.py 
+ 1499  2021-02-28 21:03:32 jstart -N descriptioner python3 $HOME/pywiki/pwb.py $HOME/pywiki/scripts/userscripts/descriptioner.py
+ 1500  2021-02-28 21:03:45 vim ./descriptioner.out 
+ 1501  2021-02-28 21:03:50 vim ./descriptioner.err 
+ 1502  2021-03-01 05:12:36 qstat
+ 1503  2021-03-01 05:20:15 qstat
+ 1504  2021-03-01 05:20:47 vim ./pywiki/scripts/userscripts/new_images.py 
+ 1505  2021-03-01 05:21:28 jstop images_cle
+ 1506  2021-03-01 05:21:33 jstop images_clean
+ 1507  2021-03-01 05:21:56 jstop 9912260
+ 1508  2021-03-01 05:29:21 jstop images_cleanup
+ 1509  2021-03-01 05:29:32 jstart -N images_cleanup python3 $HOME/pywiki/pwb.py $HOME/pywiki/scripts/userscripts/new_images.py
+ 1510  2021-03-01 05:31:24 python3 $HOME/pywiki/pwb.py $HOME/pywiki/scripts/userscripts/new_images.py
+ 1511  2021-03-01 23:13:14 cd ./pywiki/
+ 1512  2021-03-01 23:13:20 python -v
+ 1513  2021-03-01 23:13:30 python
+ 1514  2021-03-01 23:13:38 python3
+ 1515  2021-03-01 23:13:49 git
+ 1516  2021-03-01 23:14:05 vim ./user-fixes.py
+ 1517  2021-03-01 23:18:05 python3 pwb.py replace -fix:col2ver -start:"Party Monster (երգ)"
+ 1518  2021-03-01 23:18:22 python3 pwb.py replace -fix:col2ver -start:"Party Monster (երգ)" -a
+ 1519  2021-03-01 23:18:40 python3 pwb.py replace -hep
+ 1520  2021-03-01 23:18:45 python3 pwb.py replace -help
+ 1521  2021-03-01 23:19:51 python3 pwb.py replace -fix:col2ver -start:"Party Monster (երգ)" -always
+ 1522  2021-03-01 23:21:16 jsub -N col2ver python3 pwb.py replace -fix:col2ver -start:"Party Monster (երգ)" -always
+ 1523  2021-03-01 23:21:20 qstat
+ 1524  2021-03-01 23:21:23 qstat
+ 1525  2021-03-01 23:21:27 cd ..
+ 1526  2021-03-01 23:21:33 vim ./col2ver.err 
+ 1527  2021-03-01 23:21:49 cd ./pywiki/
+ 1528  2021-03-01 23:22:08 jsub -N col2ver python3 pwb.py replace -fix:col2ver -start:Party -always
+ 1529  2021-03-01 23:22:12 qstat
+ 1530  2021-03-01 23:22:15 qstat
+ 1531  2021-03-01 23:22:17 qstat
+ 1532  2021-03-01 23:22:19 qstat
+ 1533  2021-03-01 23:22:21 qstat
+ 1534  2021-03-01 23:22:25 cd ..
+ 1535  2021-03-01 23:22:29 vim col2ver.err 
+ 1536  2021-03-01 23:23:24 jstart -N col2ver python3 $HOME/pywiki/pwb.py $HOME/pywiki/scripts/userscripts/replace.py -fix:col2ver -start:"Party Monster (երգ)" -always
+ 1537  2021-03-01 23:23:35 jstart -N col2ver python3 $HOME/pywiki/pwb.py $HOME/pywiki/scripts/userscripts/replace.py -fix:col2ver -start:Party -always
+ 1538  2021-03-01 23:23:44 qstat
+ 1539  2021-03-01 23:23:46 qstat
+ 1540  2021-03-01 23:23:49 qstat
+ 1541  2021-03-01 23:23:52 qstat
+ 1542  2021-03-01 23:23:54 qstat
+ 1543  2021-03-01 23:23:56 qstat
+ 1544  2021-03-01 23:23:58 qstat
+ 1545  2021-03-01 23:25:07 qstat
+ 1546  2021-03-01 23:25:18 vim col2ver.err 
+ 1547  2021-03-01 23:25:57 jstop col2ver
+ 1548  2021-03-01 23:26:18 jstart -N col2ver python3 $HOME/pywiki/pwb.py replace -fix:col2ver -start:Party -always
+ 1549  2021-03-01 23:26:32 rm col2ver.*
+ 1550  2021-03-01 23:26:40 qstat
+ 1551  2021-03-01 23:26:46 vim ./col2ver.err 
+ 1552  2021-03-01 23:26:52 vim ./col2ver.out 
+ 1553  2021-03-08 23:14:29 vim descriptioner.out 
+ 1554  2021-03-08 23:14:38 vim descriptioner.err 
+ 1555  2021-03-12 19:30:09 ls
+ 1556  2021-03-12 19:30:14 ls
+ 1557  2021-03-12 19:30:18 ls
+ 1558  2021-03-12 19:30:43 cd ./pywiki/
+ 1559  2021-03-12 19:30:44 ls
+ 1560  2021-03-12 19:30:59 export VISUAL=vim; crontab -e
+ 1561  2021-03-12 19:32:04 python3 pwb.py replace -fix:col2ver -start:! -always -family:wiktionary -lang:hy
+ 1562  2021-03-12 19:32:43 python3 pwb.py replace -fix:col2ver -start:! -always -family:wiktionary -lang:hy
+ 1563  2021-03-12 19:33:04 vim user-config.py
+ 1564  2021-03-12 19:33:52 python3 pwb.py replace -fix:col2ver -start:! -always -family:wiktionary -lang:hy
+ 1565  2021-03-12 19:36:07 jstart -N col2verwikt python3 $HOME/pywiki/pwb.py replace -fix:col2ver -start:! -always -family:wiktionary -lang:hy
+ 1566  2021-03-12 19:41:50 vim user-config.py
+ 1567  2021-03-12 19:43:35 jstart -N col2verwikiq python3 $HOME/pywiki/pwb.py replace -fix:col2ver -start:! -always -family:wikiquote -lang:hy
+ 1568  2021-03-12 19:46:13 vim ./config-fix.py
+ 1569  2021-03-12 19:46:17 ls
+ 1570  2021-03-12 19:46:32 vim user-fixes.py
+ 1571  2021-03-23 10:37:29 qstat
+ 1572  2021-03-23 10:37:47 vim descriptioner.err 
+ 1573  2021-03-23 10:38:14 vim descriptioner.out 
+ 1574  2021-03-23 10:38:27 export VISUAL=vim; crontab -e
+ 1575  2021-03-23 10:38:37 export VISUAL=vim; crontab -e
+ 1576  2021-03-23 10:39:30 vim ./pywiki/scripts/userscripts/descriptioner.py 
+ 1577  2021-03-23 10:50:31 vim ./pywiki/scripts/userscripts/descriptioner.py 
+ 1578  2021-03-23 10:50:52 qstat
+ 1579  2021-03-23 10:51:23 jstop descriptioner
+ 1580  2021-03-23 10:51:34 qstat
+ 1581  2021-03-23 10:52:08 qstat
+ 1582  2021-03-23 10:52:13 jstart -N descriptioner python3 $HOME/pywiki/pwb.py $HOME/pywiki/scripts/userscripts/descriptioner.py
+ 1583  2021-04-06 20:23:08 vim ./pywiki/scripts/userscripts/descriptioner.py 
+ 1584  2021-04-06 20:23:35 qstat
+ 1585  2021-04-06 20:24:15 jstop descriptioner
+ 1586  2021-04-06 20:24:27 qstat
+ 1587  2021-04-06 20:24:32 jstart -N descriptioner python3 $HOME/pywiki/pwb.py $HOME/pywiki/scripts/userscripts/descriptioner.py
+ 1588  2021-04-06 20:25:11 vim ./pywiki/scripts/userscripts/descriptioner.py 
+ 1589  2021-04-06 20:28:28 export VISUAL=vim; crontab -e
+ 1590  2021-04-06 20:28:45 python3 $HOME/pywiki/pwb.py $HOME/pywiki/scripts/userscripts/descriptioner.py
+ 1591  2021-04-06 20:29:17 vim ./pywiki/scripts/userscripts/descriptioner.py 
+ 1592  2021-04-06 20:29:59 jstat
+ 1593  2021-04-06 20:30:04 qstat
+ 1594  2021-04-06 20:30:30 jstop descriptioner
+ 1595  2021-04-06 20:30:44 qstat
+ 1596  2021-04-06 20:30:50 jstart -N descriptioner python3 $HOME/pywiki/pwb.py $HOME/pywiki/scripts/userscripts/descriptioner.py
+ 1597  2021-04-06 20:33:17 vim ./pywiki/scripts/userscripts/descriptioner.py 
+ 1598  2021-04-08 13:54:17 vim ./pywiki/user-fixes.py
+ 1599  2021-04-08 13:54:56 cd ./pywiki/
+ 1600  2021-04-08 13:55:00 python replce
+ 1601  2021-04-08 13:55:08 python pwb.py replace
+ 1602  2021-04-08 13:55:22 python3 pwb.py replace
+ 1603  2021-04-08 13:55:40 python3 pwb.py replace -help
+ 1604  2021-04-08 13:57:18 vim ./pywikibot/pagegenerators.py
+ 1605  2021-04-08 13:59:15 python pwb.py replace 'a' 'v' -showBot:False
+ 1606  2021-04-08 13:59:26 python3 pwb.py replace 'a' 'v' -showBot:False
+ 1607  2021-04-08 13:59:54 python3 pwb.py replace 'a' 'v' -recentchanges -showBot:False
+ 1608  2021-04-08 14:00:23 python3 pwb.py replace 'a' 'v' -recentchanges -showBot:False
+ 1609  2021-04-08 14:00:46 python3 pwb.py replace recentchanges 'a' 'v' -showBot:False
+ 1610  2021-04-08 14:01:40 python3 pwb.py replace recentchanges 'a' 'v
+ 1611  2021-04-08 14:01:43 python3 pwb.py replace recentchanges 'a'
+ 1612  2021-04-08 14:01:53 python3 pwb.py replace -recentchanges 'a' 'v'
+ 1613  2021-04-08 14:02:27 vim ./scripts/replace.py 
+ 1614  2021-04-08 14:04:46 vim ./pywikibot/pagegenerators.py
+ 1615  2021-04-08 14:11:16 vim ./pywikibot/site/_apisite.py
+ 1616  2021-04-08 14:11:32 ls ./pywikibot/site
+ 1617  2021-04-08 14:11:53 vim ./pywikibot/pagegenerators.py
+ 1618  2021-04-08 14:16:55 python3 $HOME/pywiki/pwb.py replace -fix:col2ver -recentchanges
+ 1619  2021-04-08 14:18:23 python3 $HOME/pywiki/pwb.py replace -fix:col2ver -recentchanges -always
+ 1620  2021-04-08 14:18:47 python3 $HOME/pywiki/pwb.py replace -fix:col2ver -recentchanges -always -ns:0
+ 1621  2021-04-08 14:19:19 python3 $HOME/pywiki/pwb.py replace -fix:col2ver -ns:0 -recentchanges -always
+ 1622  2021-04-08 14:21:13 python3 $HOME/pywiki/pwb.py replace "uiewhiofjweiofjwenlaervnuilwefhweiufqweuilfvnelawhrfvbniuqhnf;weifjweio;fiowemiofweuibfuiwehf" "" -ns:0 -recentchanges -always
+ 1623  2021-04-08 14:23:42 export VISUAL=vim; crontab -e
+ 1624  2021-04-08 14:24:49 python3 $HOME/pywiki/pwb.py replace -fix:col2ver -ns:0 -recentchanges -always
+ 1625  2021-04-08 19:52:54 jstart -N col2ver $HOME/pywiki/pwb.py replace -fix:col2ver -ns:0 -recentchanges -always
+ 1626  2021-04-08 19:53:04 qstat
+ 1627  2021-04-08 19:53:20 jstop col2ver
+ 1628  2021-04-08 19:53:26 qstat
+ 1629  2021-04-08 19:53:30 qstat
+ 1630  2021-04-08 19:53:33 qstat
+ 1631  2021-04-08 19:53:54 jstart -N col2ver python3 $HOME/pywiki/pwb.py replace -fix:col2ver -ns:0 -recentchanges -always
+ 1632  2021-04-27 10:17:42 exit
+ 1633  2021-05-11 07:13:25 cd ./pywiki/
+ 1634  2021-05-11 07:13:32 vim ./scripts/userscripts/vital.py 
+ 1635  2021-05-11 07:16:22 python3 pwb.py vital
+ 1636  2021-05-11 07:24:56 python3 pwb.py vital
+ 1637  2021-05-11 07:25:02 cd ./pywiki/
+ 1638  2021-05-11 07:25:05 python3 pwb.py vital
+ 1639  2021-05-11 07:51:24 vim ./scripts/userscripts/vital.py 
+ 1640  2021-06-03 15:21:37 ls
+ 1641  2021-06-03 15:22:07 vim hist.err 
+ 1642  2021-06-03 15:22:56 rm *.err
+ 1643  2021-06-03 15:23:00 rm *.out
+ 1644  2021-06-03 15:23:01 ls
+ 1645  2021-06-03 15:23:11 export VISUAL=vim; crontab -e
+ 1646  2021-06-03 15:23:24 export VISUAL=vim; crontab -e
+ 1647  2021-06-03 15:25:13 ls
+ 1648  2021-06-03 15:25:19 export VISUAL=vim; crontab -e
+ 1649  2021-06-03 15:26:27 export VISUAL=vim; crontab -e
+ 1650  2021-06-03 15:26:40 cd ./pywiki/
+ 1651  2021-06-03 15:26:41 ls
+ 1652  2021-06-03 15:27:05 ls v
+ 1653  2021-06-03 15:27:08 ls -v
+ 1654  2021-06-03 15:27:16 ls
+ 1655  2021-06-03 15:27:37 cd ./scripts/
+ 1656  2021-06-03 15:27:38 ls
+ 1657  2021-06-03 15:27:45 cd ..
+ 1658  2021-06-03 15:27:56 cd ./scripts/userscripts/
+ 1659  2021-06-03 15:28:12 vim WLE2021.py
+ 1660  2021-06-03 15:30:51 cd ../..
+ 1661  2021-06-03 15:31:02 python3 pwb.py WLE2021
+ 1662  2021-06-03 15:31:17 python3
+ 1663  2021-06-03 15:31:33 vim ./scripts/userscripts/WLE2021.py 
+ 1664  2021-06-03 15:32:06 python3
+ 1665  2021-06-03 15:32:11 python3 pwb.py WLE2021
+ 1666  2021-06-03 15:32:28 vim ./scripts/userscripts/WLE2021.py 
+ 1667  2021-06-03 15:32:40 python3 pwb.py WLE2021
+ 1668  2021-06-03 15:33:27 vim ./scripts/userscripts/WLE2021.py 
+ 1669  2021-06-03 15:33:39 vim ./scripts/userscripts/WLE2021.py 
+ 1670  2021-06-03 15:35:01 python3 pwb.py WLE2021
+ 1671  2021-06-03 15:36:50 export VISUAL=vim; crontab -e
+ 1672  2021-06-03 15:37:47 export VISUAL=vim; crontab -e
+ 1673  2021-06-03 18:40:48 ls
+ 1674  2021-06-03 18:40:58 cd ./pywiki/
+ 1675  2021-06-03 18:41:08 vim ./scripts/userscripts/WLE2021.py 
+ 1676  2021-06-03 18:43:27 python3 pwb.py WLE2021
+ 1677  2021-06-03 18:43:37 vim ./scripts/userscripts/WLE2021.py 
+ 1678  2021-06-03 18:44:02 python3 pwb.py WLE2021
+ 1679  2021-06-03 18:45:22 vim ./scripts/userscripts/WLE2021.py 
+ 1680  2021-06-06 13:39:45 cd ./pywiki/
+ 1681  2021-06-06 13:39:53 vim ./scripts/userscripts/WLE2021.py 
+ 1682  2021-06-06 13:40:44 python3 pwb.py WLE2021
+ 1683  2021-06-06 13:42:01 python3 pwb.py WLE2021
+ 1684  2021-06-06 13:42:47 python3 pwb.py WLE2021
+ 1685  2021-12-26 15:18:05 ls
+ 1686  2021-12-26 15:18:11 ls
+ 1687  2021-12-26 15:18:14 ls
+ 1688  2021-12-26 15:18:22 rm *.err
+ 1689  2021-12-26 15:18:27 rm *.out
+ 1690  2021-12-26 15:18:30 ls
+ 1691  2021-12-26 15:18:42 cd ls
+ 1692  2021-12-26 15:18:46 ls
+ 1693  2021-12-26 15:18:51 ls -a
+ 1694  2021-12-26 15:18:55 fir 
+ 1695  2021-12-26 15:18:56 dir
+ 1696  2021-12-26 15:18:59 dir 
+ 1697  2021-12-26 15:19:04 ls -a
+ 1698  2021-12-26 15:19:07 ll
+ 1699  2021-12-26 15:19:12 ls
+ 1700  2021-12-26 15:19:19 vim check.txt 
+ 1701  2021-12-26 15:19:41 ls
+ 1702  2021-12-26 15:23:22 ls
+ 1703  2021-12-26 15:44:16 ls
+ 1704  2021-12-26 15:44:18 ls
+ 1705  2022-01-06 14:36:09 ls
+ 1706  2022-01-06 14:36:17 rm *.err
+ 1707  2022-01-06 14:36:25 rm *.out
+ 1708  2022-01-06 14:36:26 ls
+ 1709  2022-01-06 14:36:34 export VISUAL=vim; crontab -e
+ 1710  2022-01-06 14:36:57 python3 $HOME/pywiki/pwb.py $HOME/pywiki/scripts/userscripts/cat_suggest cat en hy Գրողներ_այբբենական_կարգով Մասնակից:ԱշոտՏՆՂ/ցանկեր/պակասող_կատեգորիաներ/գրողներ
+ 1711  2022-01-06 14:37:25 export VISUAL=vim; crontab -e
+ 1712  2022-01-06 14:37:39 python3 $HOME/pywiki/pwb.py replace -fix:col2ver -ns:0 -recentchanges -always
+ 1713  2022-01-06 14:38:12 ls
+ 1714  2022-01-06 14:41:37 vim .bash_profile
+ 1715  2022-01-06 14:41:49 vim .bash_profile
+ 1716  2022-01-06 14:42:39 source .bash_profile 
+ 1717  2022-01-06 14:43:01 mkdir $HOME/.pywikibot
+ 1718  2022-01-06 14:43:25 cd ./.pywikibot/
+ 1719  2022-01-06 14:43:40 sudo cd ./.pywikibot/
+ 1720  2022-01-06 14:44:29 ls $HOME/.pywikibot
+ 1721  2022-01-06 14:44:36 cd $HOME/.pywikibot
+ 1722  2022-01-06 14:44:43 ls
+ 1723  2022-01-06 14:44:58 vim check.txt 
+ 1724  2022-01-06 14:45:08 rm check.txt 
+ 1725  2022-01-06 14:45:09 ls
+ 1726  2022-01-06 14:45:10 ls
+ 1727  2022-01-06 14:45:12 cd ./co
+ 1728  2022-01-06 14:45:16 cd ./core
+ 1729  2022-01-06 14:45:21 vim core
+ 1730  2022-01-06 14:46:16 ls
+ 1731  2022-01-06 14:46:19 ll
+ 1732  2022-01-06 14:46:31 cd ./logs/
+ 1733  2022-01-06 14:46:32 ls
+ 1734  2022-01-06 14:46:33 cd ..
+ 1735  2022-01-06 14:46:37 cd ./my_scripts/
+ 1736  2022-01-06 14:46:38 ls
+ 1737  2022-01-06 14:46:42 cd ..
+ 1738  2022-01-06 14:46:45 s
+ 1739  2022-01-06 14:46:47 ls
+ 1740  2022-01-06 14:47:11 crontab -e
+ 1741  2022-01-06 14:47:45 cp pywiki/user-config.py .pywikibot/
+ 1742  2022-01-06 14:48:21 sudo cp pywiki/user-config.py .pywikibot/
+ 1743  2022-01-06 14:49:58 ls
+ 1744  2022-01-06 14:50:08 cd ./my_e
+ 1745  2022-01-06 14:50:17 ls
+ 1746  2022-01-06 14:50:23 cd ./my_venv/
+ 1747  2022-01-06 14:50:23 ls
+ 1748  2022-01-06 14:50:29 cd ..
+ 1749  2022-01-06 14:50:34 ls
+ 1750  2022-01-06 14:51:35 git clone --recursive --branch stable "https://gerrit.wikimedia.org/r/pywikibot/core" pw
+ 1751  2022-01-06 14:53:17 ls
+ 1752  2022-01-06 14:53:24 rm core 
+ 1753  2022-01-06 14:53:25 ls
+ 1754  2022-01-06 14:53:39 cd my_venv -rf
+ 1755  2022-01-06 14:53:44 rm my_venv -rf
+ 1756  2022-01-06 14:53:47 ls
+ 1757  2022-01-06 14:54:02 ls pwb/scripts/userscripts/
+ 1758  2022-01-06 14:54:13 crontab -e
+ 1759  2022-01-06 14:54:59 ls
+ 1760  2022-01-06 14:55:31 python3 -m venv venv
+ 1761  2022-01-06 14:55:47 ls
+ 1762  2022-01-06 14:56:03 source venv/bin/activate
+ 1763  2022-01-06 14:56:18 pip3 install --upgrade pip "setuptools>=49.4.0, !=50.0.0, <50.2.0" wheel
+ 1764  2022-01-06 14:57:16 cd ./pw
+ 1765  2022-01-06 14:57:27 pip3 install -e .[mwparserfromhell,mwoauth,mysql]
+ 1766  2022-01-06 14:58:04 python3
+ 1767  2022-01-06 14:58:16 deactivate
+ 1768  2022-01-06 14:58:17 ls
+ 1769  2022-01-06 14:58:20 python
+ 1770  2022-01-06 14:58:25 python3
+ 1771  2022-01-06 14:58:36 python3.8
+ 1772  2022-01-06 14:58:39 python38
+ 1773  2022-01-06 14:58:43 python3.7
+ 1774  2022-01-06 14:58:45 python3.9
+ 1775  2022-01-06 14:58:48 python3.7
+ 1776  2022-01-06 14:58:51 ls
+ 1777  2022-01-06 14:58:54 cd ..
+ 1778  2022-01-06 14:58:55 ls
+ 1779  2022-01-06 14:59:19 printenv
+ 1780  2022-01-06 14:59:57 /usr/local/bin/
+ 1781  2022-01-06 15:00:03 ls /usr/local/bin/
+ 1782  2022-01-06 15:01:08 python -c "import sys; print(sys.path)"
+ 1783  2022-01-06 15:01:21 python3 -c "import sys; print(sys.path)"
+ 1784  2022-01-06 15:01:43 python -c "import sys; print(':'.join(x for x in sys.path if x))"
+ 1785  2022-01-06 15:01:56 which python3
+ 1786  2022-01-06 15:02:09 ls /usr/bin
+ 1787  2022-01-06 15:02:53 ls /usr/bin | grep py
+ 1788  2022-01-06 15:02:57 ls /usr/bin | grep python
+ 1789  2022-01-06 15:11:38 ls
+ 1790  2022-01-06 15:11:51 python3 -version
+ 1791  2022-01-06 15:11:58 python3 --versino
+ 1792  2022-01-06 15:12:07 python3 -v
+ 1793  2022-01-06 15:12:22 python3
+ 1794  2022-01-06 15:12:39 source venv/bin/activate
+ 1795  2022-01-06 15:12:41 python
+ 1796  2022-01-06 15:14:21 ls
+ 1797  2022-01-06 15:14:33 vim pywiki/user-password.py 
+ 1798  2022-01-06 15:14:52 cp pywiki/user-password.py pw/user-password.py
+ 1799  2022-01-06 15:15:00 vim pw/user-password.py 
+ 1800  2022-01-06 15:15:15 vim pywiki/user-config.py
+ 1801  2022-01-06 15:15:43 cp pywiki/user-config.py pw/user-config.py
+ 1802  2022-01-06 15:15:45 ls
+ 1803  2022-01-06 15:16:03 cd ./pw
+ 1804  2022-01-06 15:16:06 git status
+ 1805  2022-01-06 15:17:37 crontab -e
+ 1806  2022-01-06 15:17:47 crontab -e
+ 1807  2022-01-06 15:18:15 ls ../pywiki/
+ 1808  2022-01-06 15:18:31 vim ../pywiki/user-fixes.py
+ 1809  2022-01-06 15:18:50 cp ../pywiki/user-config.py .
+ 1810  2022-01-06 15:18:50 ls
+ 1811  2022-01-06 15:19:11 cp ../pywiki/user-fixes.py .
+ 1812  2022-01-06 15:19:11 ls
+ 1813  2022-01-06 15:19:16 vim user-fixes.py
+ 1814  2022-01-06 15:19:40 cd ..
+ 1815  2022-01-06 15:19:41 ls
+ 1816  2022-01-06 15:19:48 mkdir my_pw_scripts
+ 1817  2022-01-06 15:19:55 cd ./my_pw_scripts/
+ 1818  2022-01-06 15:21:24 cp ../pywiki/scripts/userscripts/* .
+ 1819  2022-01-06 15:21:33 ls
+ 1820  2022-01-06 15:22:16 ls ..
+ 1821  2022-01-06 15:22:34 cp -n ../my_scripts/* . 
+ 1822  2022-01-06 15:22:53 cp -n ../pwb/scripts/userscipts/* . 
+ 1823  2022-01-06 15:23:05 cp -n ../pwb/scripts/userscripts/* .
+ 1824  2022-01-06 15:23:08 ls
+ 1825  2022-01-06 15:23:29 rm __init__.py
+ 1826  2022-01-06 15:23:32 rm __init__.pyc
+ 1827  2022-01-06 15:23:33 ls
+ 1828  2022-01-06 15:23:37 git add . 
+ 1829  2022-01-06 15:23:50 git init
+ 1830  2022-01-06 15:23:54 git add . 
+ 1831  2022-01-06 15:24:04 git commit -m "first commit"
+ 1832  2022-01-06 15:26:03 cd ..
+ 1833  2022-01-06 15:26:14 git clone git@github.com:ashotjanibekyan/my_pwb_scripts.git
+ 1834  2022-01-06 15:26:35 ssh-keygen 
+ 1835  2022-01-06 15:26:51 vim ./.ssh/id_rsa.pub 
+ 1836  2022-01-06 15:28:13 git clone git@github.com:ashotjanibekyan/my_pwb_scripts.git
+ 1837  2022-01-06 15:28:18 git clone git@github.com:ashotjanibekyan/my_pwb_scripts.git
+ 1838  2022-01-06 15:28:24 ls
+ 1839  2022-01-06 15:28:48 mv ./my_pw_scripts/* ./my_pwb_scripts/
+ 1840  2022-01-06 15:28:58 ls ./my_pw_scripts/
+ 1841  2022-01-06 15:29:05 rm -rf my_pw_scripts
+ 1842  2022-01-06 15:29:08 ls
+ 1843  2022-01-06 15:29:15 cd ./my_pwb_scripts/
+ 1844  2022-01-06 15:29:17 ls
+ 1845  2022-01-06 15:29:21 git status
+ 1846  2022-01-06 15:29:29 git add . 
+ 1847  2022-01-06 15:29:56 git commit -m "old scripts, need to rewrite them all"
+ 1848  2022-01-06 15:30:00 git push 
+ 1849  2022-01-06 15:37:56 ls
+ 1850  2022-01-06 15:38:06 source venv/bin/activate
+ 1851  2022-01-06 15:38:09 pip
+ 1852  2022-01-06 15:38:15 pip -version
+ 1853  2022-01-06 15:38:21 pip -v
+ 1854  2022-01-06 15:39:09 pip3 install toolforge
+ 1855  2022-01-06 15:39:44 corntab -e
+ 1856  2022-01-06 15:39:49 crontab -eb
+ 1857  2022-01-06 15:39:54 crontab -e
+ 1858  2022-01-06 15:41:27 python /data/project/ashbot/pw/pwb.py ./my_pwb_scripts/largeImages.py 
+ 1859  2022-01-06 15:42:03 pip3 install PIL
+ 1860  2022-01-06 15:42:48 pip3 install Pillow
+ 1861  2022-01-06 15:43:33 vim ./pw/user-config.py
+ 1862  2022-01-06 15:44:04 python /data/project/ashbot/pw/pwb.py ./my_pwb_scripts/largeImages.py 
+ 1863  2022-01-06 15:44:28 pip3 install toolforge
+ 1864  2022-01-06 15:44:51 vim ./pw/user-config.py
+ 1865  2022-01-06 15:45:14 pip3 install toolforge
+ 1866  2022-01-06 15:45:51 python /data/project/ashbot/pw/pwb.py ./my_pwb_scripts/largeImages.py 
+ 1867  2022-01-06 15:46:14 vim ./my_pwb_scripts/largeImages.py 
+ 1868  2022-01-06 15:46:25 python /data/project/ashbot/pw/pwb.py ./my_pwb_scripts/largeImages.py 
+ 1869  2022-01-06 15:47:41 cd ./my_pwb_scripts/
+ 1870  2022-01-06 15:47:45 git add . 
+ 1871  2022-01-06 15:47:55 git commit -m "fixing import"
+ 1872  2022-01-06 15:48:16 git push
+ 1873  2022-01-06 15:50:22 vim WLE2021.py 
+ 1874  2022-01-06 15:50:39 cd ..
+ 1875  2022-01-06 15:51:11 vim ./pw/user-config.py
+ 1876  2022-01-06 15:51:42 ls
+ 1877  2022-01-06 15:51:44 cd ./pw
+ 1878  2022-01-06 15:51:50 rm -rf user-config.py
+ 1879  2022-01-06 15:52:00 python pwb.py generate_user_files.py 
+ 1880  2022-01-06 15:52:30 ls
+ 1881  2022-01-06 15:52:58 ls ../pywiki/user-*
+ 1882  2022-01-06 15:53:07 rm user-password.py 
+ 1883  2022-01-06 15:53:10 ls
+ 1884  2022-01-06 15:53:12 python pwb.py generate_user_files.py 
+ 1885  2022-01-06 15:55:05 ls
+ 1886  2022-01-06 15:55:09 vim user-config.py
+ 1887  2022-01-06 15:55:36 vim user-fixes.py
+ 1888  2022-01-06 15:55:47 cp ../pywiki/user-password.py .
+ 1889  2022-01-06 15:55:52 cd ..
+ 1890  2022-01-06 15:56:01 python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/largeImages
+ 1891  2022-01-06 15:56:13 python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/nonFreeImages
+ 1892  2022-01-06 15:56:31 vim ./my_pwb_scripts/
+ 1893  2022-01-06 15:56:43 vim ./my_pwb_scripts/nonFreeImages.py 
+ 1894  2022-01-06 15:56:55 python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/nonFreeImages
+ 1895  2022-01-06 15:58:05 ls
+ 1896  2022-01-06 15:58:18 rm -rf my_scripts
+ 1897  2022-01-06 15:58:21 cd ./my_pwb_scripts/
+ 1898  2022-01-06 15:58:24 git add . 
+ 1899  2022-01-06 15:58:34 git commit -m "fixing import"
+ 1900  2022-01-06 15:58:38 git push
+ 1901  2022-01-06 15:58:48 git config --global --edit
+ 1902  2022-01-06 15:58:56 git config --global --edit
+ 1903  2022-01-06 15:59:00 git config --global --edit
+ 1904  2022-01-06 16:00:29 git push
+ 1905  2022-01-06 16:00:32 cd ..
+ 1906  2022-01-06 16:00:43 python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/old_unsource
+ 1907  2022-01-06 16:02:49 python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/adminstats
+ 1908  2022-01-06 16:03:29 pip3 install python-dateutil
+ 1909  2022-01-06 16:03:40 python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/adminstats
+ 1910  2022-01-06 16:09:02 python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/math_project
+ 1911  2022-01-06 16:09:38 python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/del_draft
+ 1912  2022-01-06 16:14:30 python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/orphanedTalk
+ 1913  2022-01-06 16:16:27 python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/orphanedTalk
+ 1914  2022-01-06 16:17:07 deactivate
+ 1915  2022-01-06 16:17:33 ./venv/bin/python3
+ 1916  2022-01-06 16:18:45 ./venv/bin/python3$HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/orp
+ 1917  2022-01-06 16:18:47 $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/orphanedTalk
+ 1918  2022-01-06 16:19:17 $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/vital
+ 1919  2022-01-06 16:19:32 $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/almostUncatAtricles
+ 1920  2022-01-06 16:20:36 $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/userpage_cats
+ 1921  2022-01-06 16:20:50 $HOME/venv/bin/python3 $HOME/pw/pwb.py replace -fix:col2ver -ns:0 -recentchanges -always
+ 1922  2022-01-06 16:23:18 $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/math_project
+ 1923  2022-01-06 16:23:30 $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/qsources
+ 1924  2022-01-06 16:24:26 $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/userpage_cats
+ 1925  2022-01-06 16:24:44 $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/missMostLinks
+ 1926  2022-01-06 16:29:24 $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/cat_suggest cat en hy Գրքեր_այբբենական_կարգով Մասնակից:ԱշոտՏՆՂ/ցանկեր/պակասող_կատեգորիաներ/գրքեր
+ 1927  2022-01-06 16:29:39 cd ./my_pwb_scripts/
+ 1928  2022-01-06 16:29:49 git clone git@github.com:ashotjanibekyan/wikiScripts.git
+ 1929  2022-01-06 16:30:16 mv wikiScripts wikiscripts
+ 1930  2022-01-06 16:30:54 vim wikiscripts/__init__.py
+ 1931  2022-01-06 16:31:00 $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/cat_suggest cat en hy Գրքեր_այբբենական_կարգով Մասնակից:ԱշոտՏՆՂ/ցանկեր/պակասող_կատեգորիաներ/գրքեր
+ 1932  2022-01-06 16:31:18 $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/math_project
+ 1933  2022-01-06 16:31:31 $HOME/venv/bin/python3
+ 1934  2022-01-06 16:31:53 vim math_project.py 
+ 1935  2022-01-06 16:32:05 $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/math_project
+ 1936  2022-01-06 16:32:41 vim math_project.py 
+ 1937  2022-01-06 16:33:08 $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/math_project
+ 1938  2022-01-06 16:36:25 mv wikiscripts.py wikiscripts
+ 1939  2022-01-06 16:36:32 cd ./wikiscripts/
+ 1940  2022-01-06 16:36:32 ls
+ 1941  2022-01-06 16:36:39 rm missingCats.py 
+ 1942  2022-01-06 16:36:43 rm wikiScripts.py 
+ 1943  2022-01-06 16:36:47 git add .
+ 1944  2022-01-06 16:36:56 git commit -m "update"
+ 1945  2022-01-06 16:36:59 git push
+ 1946  2022-01-06 16:37:51 ls
+ 1947  2022-01-06 16:37:54 rm vital.py 
+ 1948  2022-01-06 16:38:11 rm __pycache__ -rf
+ 1949  2022-01-06 16:38:26 cp ../.gitignore .
+ 1950  2022-01-06 16:38:27 ls
+ 1951  2022-01-06 16:38:32 git add . 
+ 1952  2022-01-06 16:38:48 git commit -m "delete unneeded file"
+ 1953  2022-01-06 16:38:54 git push
+ 1954  2022-01-06 16:38:56 cd ..
+ 1955  2022-01-06 16:39:07 git add .
+ 1956  2022-01-06 16:39:52 git submodule add https://github.com/ashotjanibekyan/wikiScripts wikiscripts
+ 1957  2022-01-06 16:39:57 git add . 
+ 1958  2022-01-06 16:40:14 git commit -m "adding wikiscripts"
+ 1959  2022-01-06 16:40:23 gitpush
+ 1960  2022-01-06 16:40:26 git push
+ 1961  2022-01-06 16:48:47 $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/qsources
+ 1962  2022-01-06 16:49:04 $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/userpage_cats
+ 1963  2022-01-06 16:49:20 vim ./my_pwb_scripts/userpage_cats.py 
+ 1964  2022-01-06 16:49:53 $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/userpage_cats
+ 1965  2022-01-06 16:50:12 vim ./my_pwb_scripts/userpage_cats.py 
+ 1966  2022-01-06 16:50:37 $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/math_project
+ 1967  2022-01-06 16:50:58 cd ./my_pwb_scripts/
+ 1968  2022-01-06 16:51:02 $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/math_project
+ 1969  2022-01-06 16:51:14 ls wikiscripts/
+ 1970  2022-01-06 16:51:34 vim math_project.py 
+ 1971  2022-01-06 16:51:49 $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/math_project
+ 1972  2022-01-06 16:52:18 vim userpage_cats.py 
+ 1973  2022-01-06 16:52:33 $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/userpage_cats
+ 1974  2022-01-06 16:53:58 $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/vital
+ 1975  2022-01-06 16:54:07 vim vital.py 
+ 1976  2022-01-06 16:54:21 cd ..
+ 1977  2022-01-06 16:54:22 $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/vital
+ 1978  2022-01-06 16:54:52 $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/shortArticles
+ 1979  2022-01-06 16:55:08 vim ./my_pwb_scripts/shortArticles.py 
+ 1980  2022-01-06 16:55:22 $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/shortArticles
+ 1981  2022-01-06 16:57:10 $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/cat_suggest cat en hy Ֆիլմեր_այբբենական_կարգով Մասնակից:ԱշոտՏՆՂ/ցանկեր/պակասող_կատեգորիաներ/ֆիլմեր
+ 1982  2022-01-06 16:57:36 vim ./my_pwb_scripts/cat_suggest.py 
+ 1983  2022-01-06 16:58:13 $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/cat_suggest cat en hy Ֆիլմեր_այբբենական_կարգով Մասնակից:ԱշոտՏՆՂ/ցանկեր/պակասող_կատեգորիաներ/ֆիլմեր
+ 1984  2022-01-06 16:59:00 vim ./my_pwb_scripts/cat_suggest.py 
+ 1985  2022-01-06 16:59:21 vim ./my_pwb_scripts/get_cat_pages.py 
+ 1986  2022-01-06 16:59:34 $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/cat_suggest cat en hy Ֆիլմեր_այբբենական_կարգով Մասնակից:ԱշոտՏՆՂ/ցանկեր/պակասող_կատեգորիաներ/
+ 1987  2022-01-06 19:12:27 $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/cat_suggest cat en hy Ֆիլմեր_այբբենական_կարգով Մասնակից:ԱշոտՏՆՂ/ցանկեր/պակասող_կատեգորիաներ/
+ 1988  2022-01-06 19:14:01 vim /data/project/ashbot/my_pwb_scripts/cat_suggest.py 
+ 1989  2022-01-06 19:14:13 vim /data/project/ashbot/my_pwb_scripts/get_cat_pages.py 
+ 1990  2022-01-06 19:14:38 source ./venv/bin/activate
+ 1991  2022-01-06 19:14:46 pip3 install MySQLdb
+ 1992  2022-01-06 19:15:36 vim /data/project/ashbot/my_pwb_scripts/get_cat_pages.py 
+ 1993  2022-01-06 19:16:00 vim /data/project/ashbot/my_pwb_scripts/get_cat_pages.py 
+ 1994  2022-01-06 19:16:28 $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/cat_suggest cat en hy Ֆիլմեր_այբբենական_կարգով Մասնակից:ԱշոտՏՆՂ/ցանկեր/պակասող_կատեգորիաներ/
+ 1995  2022-01-06 19:16:53 exit
+ 1996  2022-01-06 19:17:53 $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/largeImages
+ 1997  2022-01-06 19:18:06 $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/nonFreeImages
+ 1998  2022-01-06 19:19:02 $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/old_unsource
+ 1999  2022-01-06 19:19:14 $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/adminstats
+ 2000  2022-01-06 19:23:36 $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/del_draft
+ 2001  2022-01-06 19:23:44 $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/orphanedTalk
+ 2002  2022-01-06 19:24:14 $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/almostUncatAtricles
+ 2003  2022-01-06 19:24:53 $HOME/pw/pwb.py replace -fix:col2ver -ns:0 -recentchanges -always
+ 2004  2022-01-06 19:25:02 $HOME/venv/bin/python3 $HOME/pw/pwb.py replace -fix:col2ver -ns:0 -recentchanges -always
+ 2005  2022-01-06 19:26:09 $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/missMostLinks
+ 2006  2022-01-06 19:29:10 $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/math_project
+ 2007  2022-01-06 19:30:23 vim ./my_pwb_scripts/math_project.py 
+ 2008  2022-01-06 19:31:02 vim ./my_pwb_scripts/qsources.py 
+ 2009  2022-01-06 19:31:35 crontab -e 
+ 2010  2022-01-06 19:32:51 ls
+ 2011  2022-01-06 19:32:57 cd ./my_pwb_scripts/
+ 2012  2022-01-06 19:33:00 git add . 
+ 2013  2022-01-06 19:33:14 git commit -m "first stable"
+ 2014  2022-01-06 19:33:22 git push 
+ 2015  2022-01-06 19:34:10 source ../venv/bin/activate
+ 2016  2022-01-06 19:34:17 pip3 freeze
+ 2017  2022-01-06 19:34:56 pip3 freeze > requirements.txt
+ 2018  2022-01-06 19:35:02 git add . 
+ 2019  2022-01-06 19:35:18 git commit -m "adding requirements.txt"
+ 2020  2022-01-06 19:35:20 git push
+ 2021  2022-01-06 19:36:51 cd ..
+ 2022  2022-01-06 19:36:53 ls
+ 2023  2022-01-06 19:37:08 rm *.err
+ 2024  2022-01-06 19:37:11 rm *.out
+ 2025  2022-01-06 19:37:12 ls
+ 2026  2022-01-06 19:37:14 ls
+ 2027  2022-01-06 19:37:28 rm -rf pwb
+ 2028  2022-01-06 19:37:42 rm -rf pywiki
+ 2029  2022-01-06 19:37:47 ls
+ 2030  2022-01-06 19:38:45 crontab -3
+ 2031  2022-01-06 19:38:48 crontab -e
+ 2032  2022-01-06 19:40:50 cd ./my_pwb_scripts/
+ 2033  2022-01-06 19:41:04 crontab -l > my-crontab
+ 2034  2022-01-06 19:41:09 git add . 
+ 2035  2022-01-06 19:41:18 git commit
+ 2036  2022-01-06 19:42:01 git push
+ 2037  2022-01-06 19:42:30 jstat
+ 2038  2022-01-06 19:44:33 qstat
+ 2039  2022-01-06 19:45:31 history > history_for_print.txt

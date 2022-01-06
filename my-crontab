@@ -1,0 +1,65 @@
+# Edit this file to introduce tasks to be run by cron.
+#
+# Each task to run has to be defined through a single line
+# indicating with different fields when the task will be run
+# and what command to run for the task
+#
+# To define the time you can provide concrete values for
+# minute (m), hour (h), day of month (dom), month (mon),
+# and day of week (dow) or use '*' in these fields (for 'any').
+#
+# Notice that tasks will be started based on the cron's system
+# daemon's notion of time and timezones.
+#
+# Output of the crontab jobs (including errors) is sent through
+# email to the user the crontab file belongs to (unless redirected).
+#
+# For example, you can run a backup of all your user accounts
+# at 5 a.m every week with:
+# 0 5 * * 1 tar -zcf /var/backups/home.tgz /home/
+#
+# For more information see the manual pages of crontab(5) and cron(8)
+#
+# Wikimedia Toolforge specific note:
+#   Please be aware that *only* jsub and jstart are acceptable
+#   commands to schedule via cron.  Any command specified here will
+#   be modified to be invoked through jsub unless it is one of
+#   the two.
+#
+# m	h	dom	mon	dow	command
+
+0 0 * * 0 jsub -N largeImages $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/largeImages
+0 0 * * * jsub -N nonFreeImages $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/nonFreeImages
+0 0 * * * jsub -N old_unsource $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/old_unsource
+0 1 * * * jsub -N adminstats $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/adminstats
+0 0 * * * jsub -N del_draft $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/del_draft
+0 12 * * * jsub -N orphanedTalk $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/orphanedTalk
+0 0 * * * jsub -N almostUncatAtricles $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/almostUncatAtricles
+0 0 * * * jsub -N col2ver $HOME/venv/bin/python3 $HOME/pw/pwb.py replace -fix:col2ver -ns:0 -recentchanges -always
+0 16 * * 6 jsub -N missMostLinks $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/missMostLinks
+0 2 * * * jsub -N math_project $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/math_project
+0 8 * * * jsub -N qsources $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/qsources
+0 2 * * * jsub -N userpage_cats $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/userpage_cats
+0 18 * * * jsub -N vital $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/vital
+0 20 * * 6 jsub -N shortArticles $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/shortArticles
+0 8 * * 6 jsub -N missingLabels $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/missingLabels
+
+0 0 * * 0 jsub -N Georgia $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/cat_suggest cat en hy Վրաստան Մասնակից:ԱշոտՏՆՂ/ցանկեր/պակասող_կատեգորիաներ/Վրաստան 3
+0 8 * * 0 jsub -N USA $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/cat_suggest cat en hy ԱՄՆ Մասնակից:ԱշոտՏՆՂ/ցանկեր/պակասող_կատեգորիաներ/ԱՄՆ 3
+0 16 * * 0 jsub -N Turkey $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/cat_suggest cat en hy Թուրքիա Մասնակից:ԱշոտՏՆՂ/ցանկեր/պակասող_կատեգորիաներ/Թուրքիա 3
+0 0 * * 1 jsub -N Britan $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/cat_suggest cat en hy Մեծ_Բրիտանիա Մասնակից:ԱշոտՏՆՂ/ցանկեր/պակասող_կատեգորիաներ/Մեծ_Բրիտանիա 3
+0 8 * * 1 jsub -N alboms $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/cat_suggest cat en hy Ալբոմներ_այբբենական_կարգով Մասնակից:ԱշոտՏՆՂ/ցանկեր/պակասող_կատեգորիաներ/ալբոմներ
+0 8 * * 2 jsub -N plants $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/cat_suggest cat en hy Բույսեր_այբբենական_կարգով Մասնակից:ԱշոտՏՆՂ/ցանկեր/պակասող_կատեգորիաներ/բույսեր
+0 16 * * 2 jsub -N rivers $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/cat_suggest cat ru hy Գետեր_այբբենական_կարգով Մասնակից:ԱշոտՏՆՂ/ցանկեր/պակասող_կատեգորիաներ/գետեր
+0 0 * * 3 jsub -N scientists $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/cat_suggest cat en hy Գիտնականներ_այբբենական_կարգով Մասնակից:ԱշոտՏՆՂ/ցանկեր/պակասող_կատեգորիաներ/գիտնականներ
+0 8 * * 3 jsub -N writers $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/cat_suggest cat en hy Գրողներ_այբբենական_կարգով Մասնակից:ԱշոտՏՆՂ/ցանկեր/պակասող_կատեգորիաներ/գրողներ
+0 12 * * 3 jsub -N hist $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/cat_suggest cat en hy Պատմություն Մասնակից:ԱշոտՏՆՂ/ցանկեր/պակասող_կատեգորիաներ/պատմություն 3
+0 16 * * 3 jsub -N books $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/cat_suggest cat en hy Գրքեր_այբբենական_կարգով Մասնակից:ԱշոտՏՆՂ/ցանկեր/պակասող_կատեգորիաներ/գրքեր
+0 0 * * 4 jsub -N actors $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/cat_suggest cat en hy Դերասաններ_այբբենական_կարգով Մասնակից:ԱշոտՏՆՂ/ցանկեր/պակասող_կատեգորիաներ/դերասաններ
+0 8 * * 4 jsub -N singers $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/cat_suggest cat en hy Երաժիշտներ_այբբենական_կարգով Մասնակից:ԱշոտՏՆՂ/ցանկեր/պակասող_կատեգորիաներ/երաժիշտներ
+0 16 * * 4 jsub -N museums $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/cat_suggest cat en hy Թանգարաններ_այբբենական_կարգով Մասնակից:ԱշոտՏՆՂ/ցանկեր/պակասող_կատեգորիաներ/թանգարաններ
+0 0 * * 5 jsub -N mount $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/cat_suggest cat en hy Լեռներ_այբբենական_կարգով Մասնակից:ԱշոտՏՆՂ/ցանկեր/պակասող_կատեգորիաներ/լեռներ
+0 8 * * 5 jsub -N animals $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/cat_suggest cat en hy Կենդանիներ_այբբենական_կարգով Մասնակից:ԱշոտՏՆՂ/ցանկեր/պակասող_կատեգորիաներ/կենդանիներ
+0 12 * * 5 jsub -N hist $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/cat_suggest cat en hy Պատմություն Մասնակից:ԱշոտՏՆՂ/ցանկեր/պակասող_կատեգորիաներ/պատմություն 3
+0 16 * * 5 jsub -N singles $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/cat_suggest cat en hy Սինգլներ_այբբենական_կարգով Մասնակից:ԱշոտՏՆՂ/ցանկեր/պակասող_կատեգորիաներ/սինգլներ
+0 0 * * 6 jsub -N movies $HOME/venv/bin/python3 $HOME/pw/pwb.py $HOME/my_pwb_scripts/cat_suggest cat en hy Ֆիլմեր_այբբենական_կարգով Մասնակից:ԱշոտՏՆՂ/ցանկեր/պակասող_կատեգորիաներ/ֆիլմեր

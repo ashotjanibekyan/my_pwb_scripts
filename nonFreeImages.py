@@ -1,4 +1,4 @@
-from scripts.userscripts import toolforge
+import toolforge
 import pywikibot as pw
 
 conn = toolforge.connect('hywiki')

@@ -1,5 +1,5 @@
 from PIL import Image
-from scripts.userscripts import toolforge
+import toolforge
 import pywikibot as pw
 from io import BytesIO
 import os

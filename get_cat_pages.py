@@ -1,5 +1,5 @@
-from scripts.userscripts import toolforge
-import MySQLdb
+import toolforge
+#import MySQLdb
 
 conn = toolforge.connect('hywiki')
 
