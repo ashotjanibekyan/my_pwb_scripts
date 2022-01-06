@@ -1,7 +1,7 @@
 import pywikibot as pw
 from pywikibot import pagegenerators as pg
 import re
-from wikiscripts import wikiScripts as ws
+from wikiscripts import wikiscripts as ws
 import pywikibot.data.api as api
 hywiki = pw.Site('hy', 'wikipedia')
 enwiki = pw.Site('en', 'wikipedia')

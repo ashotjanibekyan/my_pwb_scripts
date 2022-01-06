@@ -1,5 +1,5 @@
 import toolforge
-from scripts.userscripts import wikiscripts as ws
+from wikiscripts import wikiscripts as ws
 import pywikibot as pw
 
 hywiki = ws.Wiki('hy', 'wikipedia')

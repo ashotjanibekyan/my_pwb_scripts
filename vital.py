@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import pywikibot as pw
-from scripts.userscripts import wikiscripts as ws
+from wikiscripts import wikiscripts as ws
 import re
 
 def r(i):

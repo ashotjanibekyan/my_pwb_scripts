@@ -1,5 +1,5 @@
-from scripts.userscripts import wikiscripts as ws
-from scripts.userscripts import get_cat_pages as cc
+from wikiscripts import wikiscripts as ws
+import get_cat_pages as cc
 import pywikibot as pw
 import sys, re
 
