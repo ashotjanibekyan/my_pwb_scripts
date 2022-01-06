@@ -3,7 +3,7 @@ import requests, os, time, datetime, re, sys
 from io import BytesIO
 from PIL import Image
 from pywikibot import pagegenerators as pg
-from scripts.userscripts import toolforge
+import toolforge
 
 S = requests.Session()
 URL = "https://hy.wikipedia.org/w/api.php"
