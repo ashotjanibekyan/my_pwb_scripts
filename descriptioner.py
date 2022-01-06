@@ -76,10 +76,10 @@ if len(sys.argv) == 5:
     from_lang, from_desc, to_lang, to_desc = sys.argv[-4:]
     run(from_lang, from_desc, to_lang, to_desc, site)
 
-#run('en', 'date in Gregorian calendar', 'hy', 'Գրիգորյան օրացույցի ամսաթիվ', site)
-#run('en', 'mountain in Australia', 'hy', 'լեռ Ավստրալիայում', site)
-#run('en', 'mountain in Indonesia', 'hy', 'լեռ Ինդոնեզիայում', site)
-#run('en', 'river in Brazil', 'hy', 'գետ Բրազիլիայում', site)
+run('en', 'date in Gregorian calendar', 'hy', 'Գրիգորյան օրացույցի ամսաթիվ', site)
+run('en', 'mountain in Australia', 'hy', 'լեռ Ավստրալիայում', site)
+run('en', 'mountain in Indonesia', 'hy', 'լեռ Ինդոնեզիայում', site)
+run('en', 'river in Brazil', 'hy', 'գետ Բրազիլիայում', site)
 run('en', 'American politician', 'hy', 'ամերիկացի քաղաքական գործիչ', site)
 run('en', 'actor', 'hy', 'դերասան', site)
 run('en', 'human settlement in Myanmar', 'hy', 'բնակավայր Մյանմարում', site)
